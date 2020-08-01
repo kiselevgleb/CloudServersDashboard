@@ -20,6 +20,7 @@ function serv() {
     const trTitle = document.createElement('tr');
     trTitle.innerHTML = "Your micro instances:";
     table.prepend(trTitle);
+    trPlus.classList.add("thStop");
     trPlus.innerHTML = "Create new instance";
     table.appendChild(trPlus);
   });
@@ -66,6 +67,7 @@ function createServer(element) {
   const thRem = document.createElement('th');
   thActions.innerHTML = "Actions";
   thStop.classList.add("thStop");
+  thRem.classList.add("thStop");
   thStop.innerHTML = "&#9654";
   thRem.innerHTML = "&#215";
   trThr.appendChild(thActions);
