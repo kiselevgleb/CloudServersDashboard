@@ -1,5 +1,5 @@
 {
-  "name": "CRM",
+  "name": "CloudServersDashboard",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -42,11 +42,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kiselevgleb/CRM-template.git"
+    "url": "git+https://github.com/kiselevgleb/CloudServersDashboard.git"
   },
   "bugs": {
-    "url": "https://github.com/kiselevgleb/CRM-template/issues"
+    "url": "https://github.com/kiselevgleb/CloudServersDashboard/issues"
   },
-  "homepage": "https://github.com/kiselevgleb/CRM-template#readme",
+  "homepage": "https://github.com/kiselevgleb/CloudServersDashboard#readme",
   "description": ""
 }

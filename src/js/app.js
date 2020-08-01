@@ -34,7 +34,8 @@ trPlus.addEventListener('click', () => {
     let eventSource;
     let date = new Date();
     log.innerHTML += "<p style='font-size:10px'>" + date.toISOString().split('T')[0] + " " + date.getHours() + ":" + date.getMinutes() + "</p>" + "<p style='font-size:10px'>" + id + "</p>" + "<p  style='font-size:10px'>" + "INFO: Create command" + "</p>" + "<br>";
-    eventSource = new EventSource(`http://localhost:7070/${id}`);
+    // eventSource = new EventSource(`http://localhost:7070/${id}`);
+    eventSource = new EventSource(`https://cloud-servers.herokuapp.com/${id}`);
     masES.push({
       id: id,
       es: eventSource

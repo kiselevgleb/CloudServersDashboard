@@ -22,8 +22,9 @@ function text(response) {
 }
 let r;
 async function all() {
+  // let result = await fetch('http://localhost:7070/all', {
 
-  let result = await fetch('http://localhost:7070/all', {
+  let result = await fetch('https://cloud-servers.herokuapp.com/all', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json;charset=utf-8'
@@ -35,8 +36,9 @@ async function all() {
 }
 
 async function create() {
+  // let result = await fetch('http://localhost:7070/create', {
 
-  let result = await fetch('http://localhost:7070/create', {
+  let result = await fetch('https://cloud-servers.herokuapp.com/create', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json;charset=utf-8'
@@ -47,8 +49,10 @@ async function create() {
 }
 
 async function removed(id) {
-  let r;
-  let res = await fetch('http://localhost:7070/rem', {
+  let r;  
+  // let res = await fetch('http://localhost:7070/rem', {
+  let res = await fetch('https://cloud-servers.herokuapp.com/rem', {
+  
     method: 'POST',
     headers: {
       'Content-Type': 'text/html; charset=utf-8'
