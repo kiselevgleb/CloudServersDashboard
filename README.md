@@ -1,14 +1,11 @@
-# Chat
+# CloudServersDashboard
 
-https://kiselevgleb.github.io/chat/
-
-Back server https://chat-back2.herokuapp.com/
-example reguest: https://chat-back2.herokuapp.com/all
+https://kiselevgleb.github.io/CloudServersDashboard/
 
 Front JS (github) + Back node JS koa (heroku)
 
 ## Repository with back server:
-https://github.com/kiselevgleb/chat-back
+https://github.com/kiselevgleb/CloudServersBack
 
 ## Back server running Locally
 For this Koa app to run you must be running node 0.11.*.
