@@ -1,0 +1,47 @@
+.butSend {
+  border: 0px double #868686;
+  border-radius: 5px;
+  height: 38px;
+  width: 35px;
+}
+.tbWrap {
+  border: 1px double #868686;
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+margin-top: 5px;
+}
+.table {
+  width: 300px;
+  height: 350px;
+  border: 1px double #868686;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 5px;
+}
+
+.wrap-chat {
+  display: inline-block;
+}
+
+.table-chat {
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  border: 1px double #868686;
+  border-radius: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+td,
+th {
+  width: auto;
+  text-align: left;
+  font-weight:normal;
+  padding: 5px 0px 5px 20px;
+}
+
